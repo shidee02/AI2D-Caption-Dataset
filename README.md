@@ -23,3 +23,11 @@ Each data sample in this dataset follows the structure below:
   "category": "string",
   "caption": "string"
 }
+
+```markdown
+## Caption Annotations
+
+| Image Name | Category | Caption |
+|------------|----------|---------|
+| img_0001.png | Biology | Example caption |
+| img_0002.png | Physics | Example caption |
