@@ -24,10 +24,9 @@ Each data sample in this dataset follows the structure below:
   "caption": "string"
 }
 
-```markdown
-## Caption Annotations
-
-| Image Name | Category | Caption |
-|------------|----------|---------|
-| img_0001.png | Biology | Example caption |
-| img_0002.png | Physics | Example caption |
+Caption Annotations (Sample Examples)
+Image Name	Category	Caption
+img_0001.png	Biology	The diagram illustrates photosynthesis.
+img_0045.png	Physics	This figure explains wave propagation.
+img_0123.png	Chemistry	The diagram represents an acid–base reaction.
+img_0789.png	Engineering	A lever system showing pivot and force.
