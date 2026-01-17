@@ -1,15 +1,25 @@
-# AI2D-Caption-Dataset
+# AI2D Caption Dataset
 
-# My Dataset
+This repository presents a caption-annotated extension of the **AI2D (Allen Institute for AI Diagram Dataset)**. The dataset enriches scientific diagrams with concise, human-written natural language captions to support research in **diagram understanding, vision–language models, and multimodal reasoning**.
 
-The full dataset is too large for GitHub.  
-You can download it here:  
-➡️ [Download from Google Drive](https://drive.google.com/file/d/1KhUuytwtcR6wFAAQJrTjOJ1EBhKNsv-g/view?usp=share_link)
+---
 
-## Usage
-Download and extract the dataset, then load it into your project. Example in Python:
+## Dataset Access Policy
 
-```python
-import pandas as pd
-df = pd.read_csv("your_dataset.csv")
-print(df.head())
+The original AI2D images and annotations are **not redistributed** in this repository.
+
+Researchers interested in the AI2D dataset may obtain it **directly from the original authors upon a reasonable academic request**.  
+This repository releases only the **caption annotations and dataset structure**.
+
+---
+
+## Dataset Structure
+
+Each data sample follows the structure below:
+
+```json
+{
+  "image_name": "string",
+  "category": "string",
+  "caption": "string"
+}
