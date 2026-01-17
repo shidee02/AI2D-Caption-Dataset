@@ -24,5 +24,5 @@ Each data sample in this dataset follows the structure below:
   "caption": "string"
 }
 
-
+![Dataset Structure Table](a.jpg)
 
