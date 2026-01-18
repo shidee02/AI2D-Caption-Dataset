@@ -14,7 +14,7 @@ Users are strongly encouraged to **refer to the original paper and dataset** for
 
 ---
 
-## ✍️ Human-Annotated Caption Extension
+## Human-Annotated Caption Extension
 In this work, **no modifications are made to the original AI2D images or labels**.  
 We only add **new human-authored natural language captions** that describe the overall semantic content of each diagram in a coherent and descriptive manner.
 
@@ -25,7 +25,7 @@ These captions are:
 
 ---
 
-## 📊 Sample Annotations
+## Sample Annotations
 A small set of representative examples is provided below to illustrate the nature of the human-annotated captions.
 
 <p align="center">
@@ -37,7 +37,7 @@ A small set of representative examples is provided below to illustrate the natur
 
 ---
 
-## 📥 Dataset Access
+## Dataset Access
 The **complete augmented dataset is not publicly hosted**.
 
 Researchers interested in obtaining access to the **full set of human-annotated captions** may do so by making a **reasonable request to the authors**.  
@@ -45,7 +45,7 @@ Access is intended strictly for **academic and non-commercial research purposes*
 
 ---
 
-## 📌 Intended Use
+## Intended Use
 This dataset extension is suitable for:
 - Diagram caption generation
 - Multimodal learning and evaluation
@@ -54,5 +54,5 @@ This dataset extension is suitable for:
 
 ---
 
-## 📄 Citation
+## Citation
 If you use this dataset or its annotations in your work, please **cite the original AI2D paper** and acknowledge this caption annotation effort accordingly.
