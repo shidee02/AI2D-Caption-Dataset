@@ -1,29 +1,59 @@
-# AI2D Caption Dataset
+# AI2D-Caption: Human-Annotated Descriptive Captions for Diagrams
 
-This repository presents a caption-annotated extension of the **AI2D (Allen Institute for AI Diagram Dataset)**. The dataset enriches scientific diagrams with concise, human-written natural language captions to support research in **diagram understanding, vision–language models, and multimodal reasoning**.
-
----
-
-## Dataset Access Policy
-
-The original AI2D images and annotations are **not redistributed** in this repository.
-
-Researchers interested in the AI2D dataset may obtain it **directly from the original authors upon a reasonable academic request**.  
-This repository releases only the **caption annotations and dataset structure**.
+## 📘 Overview
+This repository presents an **augmented version of the AI2D dataset**, where we introduce **human-annotated descriptive captions** for a subset of scientific diagrams. The goal of this extension is to facilitate research in **diagram understanding, multimodal reasoning, and vision–language modeling**.
 
 ---
 
-## Dataset Structure
+## 🔗 Reference to the Original Dataset
+The original AI2D dataset was introduced in the paper:
 
-Each data sample in this dataset follows the structure below:
+> **A Diagram Is Worth A Dozen Images**  
+> Peter J. Wolff et al.
 
-```json
-{
-  "image_name": "string",
-  "category": "string",
-  "caption": "string"
-}
+Users are strongly encouraged to **refer to the original paper and dataset** for details regarding diagram collection, structural annotations, and semantic categorization.
 
+---
 
+## ✍️ Human-Annotated Caption Extension
+In this work, **no modifications are made to the original AI2D images or labels**.  
+We only add **new human-authored natural language captions** that describe the overall semantic content of each diagram in a coherent and descriptive manner.
 
+These captions are:
+- Written by human annotators  
+- Focused on global diagram understanding  
+- Intended to complement existing AI2D annotations  
 
+---
+
+## 📊 Sample Annotations
+A small set of representative examples is provided below to illustrate the nature of the human-annotated captions.
+
+<p align="center">
+  <img src="ai2d_sample_human_annotations.png" width="800">
+</p>
+<p align="center">
+  <strong>Figure:</strong> Sample Human-Annotated Diagram Captions (AI2D)
+</p>
+
+---
+
+## 📥 Dataset Access
+The **complete augmented dataset is not publicly hosted**.
+
+Researchers interested in obtaining access to the **full set of human-annotated captions** may do so by making a **reasonable request to the authors**.  
+Access is intended strictly for **academic and non-commercial research purposes**.
+
+---
+
+## 📌 Intended Use
+This dataset extension is suitable for:
+- Diagram caption generation
+- Multimodal learning and evaluation
+- Vision–language model benchmarking
+- Scientific diagram understanding research
+
+---
+
+## 📄 Citation
+If you use this dataset or its annotations in your work, please **cite the original AI2D paper** and acknowledge this caption annotation effort accordingly.
