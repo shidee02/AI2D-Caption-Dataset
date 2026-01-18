@@ -1,15 +1,32 @@
 # AI2D-Caption: Human-Annotated Descriptive Captions for Diagrams
 
-## 📘 Overview
+## Overview
 This repository presents an **augmented version of the AI2D dataset**, where we introduce **human-annotated descriptive captions** for a subset of scientific diagrams. The goal of this extension is to facilitate research in **diagram understanding, multimodal reasoning, and vision–language modeling**.
 
 ---
 
-## 🔗 Reference to the Original Dataset
+## Reference to the Original Dataset
 The original AI2D dataset was introduced in the paper:
 
 > **A Diagram Is Worth A Dozen Images**  
-> Peter J. Wolff et al.
+> @article{DBLP:journals/corr/KembhaviSKSHF16,
+  author       = {Aniruddha Kembhavi and
+                  Mike Salvato and
+                  Eric Kolve and
+                  Min Joon Seo and
+                  Hannaneh Hajishirzi and
+                  Ali Farhadi},
+  title        = {A Diagram Is Worth {A} Dozen Images},
+  journal      = {CoRR},
+  volume       = {abs/1603.07396},
+  year         = {2016},
+  url          = {http://arxiv.org/abs/1603.07396},
+  eprinttype    = {arXiv},
+  eprint       = {1603.07396},
+  timestamp    = {Mon, 13 Aug 2018 16:49:02 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/KembhaviSKSHF16.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
 Users are strongly encouraged to **refer to the original paper and dataset** for details regarding diagram collection, structural annotations, and semantic categorization.
 
